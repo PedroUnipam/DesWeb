@@ -24,7 +24,7 @@ public class Professor extends Pessoa{
 
     @Override
     public String toString(){
-        return "Professor{" + super.toString() + 
+        return "\nProfessor{" + super.toString() + 
             ", IdProfessor=" + getIdProfessor() + "}";
     }
 }

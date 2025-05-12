@@ -7,7 +7,7 @@ import com.example.projeto.service.MensagemService;
 
 @RestController
 @RequestMapping("/api")
-public class MensagemController{
+public class MensagemController {
     private final MensagemService mensagemService;
 
     public MensagemController(MensagemService mensagemService){
@@ -18,5 +18,4 @@ public class MensagemController{
     public String obterMensagem(){
         return mensagemService.obterMensagem();
     }
-
 }

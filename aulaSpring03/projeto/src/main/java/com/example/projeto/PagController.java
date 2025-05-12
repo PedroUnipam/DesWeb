@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @RestController
 @RequestMapping("/api")
-public class PagController{
+public class PagController {
     @GetMapping("/ola")
     public String ola(){
-        return "Ola, mundo!";
+        return "Olá, mundo!";
     }
 }

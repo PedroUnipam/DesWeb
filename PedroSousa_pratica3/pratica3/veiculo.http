@@ -1,0 +1,58 @@
+# Definição de variáveis
+@base_url = https://upgraded-space-funicular-qwp976rqr4424p7j-8080.app.github.dev/
+
+
+### Listar todos os veículos
+GET {{base_url}}/api/veiculos
+Content-Type: application/json
+
+### Inserir novo veículo
+POST {{base_url}}/api/veiculos
+Content-Type: application/json
+
+{
+    "modelo": "Corolla",
+    "ano": 2023,
+    "valor": 148290.00
+}
+
+### Inserir segundo veículo
+POST {{base_url}}/api/veiculos
+Content-Type: application/json
+
+{
+    "modelo": "Camaro",
+    "ano": 2024,
+    "valor": 532340.00
+}
+
+### Inserir terceiro veículo
+POST {{base_url}}/api/veiculos
+Content-Type: application/json
+
+{
+    "modelo": "s10",
+    "ano": 2022,
+    "valor":  168636.00
+}
+
+### Inserir quarto veículo
+POST {{base_url}}/api/veiculos
+Content-Type: application/json
+
+{
+    "modelo": "Celta",
+    "ano": 2016,
+    "valor": 35400.00
+}
+
+### Buscar veículo por ID
+GET {{base_url}}/api/veiculos/1
+Content-Type: application/json
+
+### Deletar veículo
+DELETE {{base_url}}/api/veiculos/1
+Content-Type: application/json
+
+
+
